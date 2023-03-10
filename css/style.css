@@ -12,7 +12,7 @@ h2, h4, button, .navbar-nav {
 }
 p, label {
     font-family: 'Didact Gothic', sans-serif;
-    font-size: .75rem;
+    font-size: 1rem;
 }
 h3 {
     font-size: 1.5rem;
@@ -20,21 +20,26 @@ h3 {
 h4 {
     font-size: 2rem;
 }
-/* NAVBAR */
-.bg-body-tertiary {
-    --bs-bg-opacity: 0;
+
+.container-fluid {
+    padding:0;
 }
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 /* SPLASHSCREEN */
 .splash-screen {
-    /* background-image: url('../img/maxime-bhm-icyZmdkCGZ0-unsplash.jpg'); */
-    /* background-size: cover; */
+    background-image: url('../img/color-run.jpg');
+    background-size: cover;
     height: 85vh;
 }
 
 .square-btn {
     font-size: 1.25rem;
-    padding: 5px 35px;
-    border-radius: 15px;
+    padding: 10px 40px;
+    border-radius: 5px;
     background-color: transparent;
 }
 
